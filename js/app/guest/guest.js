@@ -287,10 +287,10 @@ export const guest = (() =>
         const url = new URL('https://calendar.google.com/calendar/render');
         const data = new URLSearchParams({
             action: 'TEMPLATE',
-            text: 'The Wedding of Ankush and Anchita',
-            dates: `${ formatDate('2025-12-05 06:00') }/${ formatDate('2025-12-05 23:00') }`,
-            details: 'Wedding Invitation\n\nJoin us in celebrating our special day!\n\nVisit our wedding invitation website for more details and to RSVP:Kaura Family.',
-            location: 'Baijnath, Himachal Pradesh, India',
+            text: 'The Wedding of Simar and Ankit',
+            dates: `${ formatDate('2026-02-26 06:00') }/${ formatDate('2026-02-26 23:00') }`,
+            details: 'Wedding Invitation\n\nJoin us in celebrating our special day!\n\nVisit our wedding invitation website for more details and to RSVP: Sohi Family.',
+            location: 'B S Green Field, Shergarh, Hoshiarpur, Punjab',
             ctz: config.get('timezone') || 'Asia/Kolkata',
         });
 
